@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Área de Psicología - I.E. 0271 Pamashto</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome (Iconos) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+    </style>
+</head>
+<body class="bg-gray-100">
+
+    <!-- ========== HEADER (Menú de Navegación) ========== -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <nav class="max-w-[85rem] w-full mx-auto px-4 sm:flex sm:items-center sm:justify-between py-4">
+            <a class="flex-none text-xl font-semibold text-blue-800" href="index.html">
+                <i class="fas fa-school mr-2"></i> I.E. 0271 Pamashto
+            </a>
+            <div class="flex items-center">
+                 <a class="font-medium text-gray-600 hover:text-blue-700" href="index.html#inicio">
+                    <i class="fas fa-arrow-left mr-2"></i>Volver a la Página Principal
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="bg-white">
+            <div class="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
+                <div class="grid grid-cols-1 md:grid-cols-12 gap-8 items-center">
+                    
+                    <!-- Columna de la Imagen -->
+                    <div class="md:col-span-5">
+                        <div class="relative">
+                            <img class="w-full rounded-2xl shadow-2xl" src="imagen/psicologa.jpg" alt="Foto de la Psicóloga">
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent rounded-2xl"></div>
+                        </div>
+                    </div>
+
+                    <!-- Columna de Texto -->
+                    <div class="md:col-span-7">
+                        <div class="text-left">
+                            <p class="text-base font-semibold text-blue-600 tracking-wide uppercase">Área de Psicología y Bienestar</p>
+                            <h1 class="mt-2 text-4xl font-extrabold text-gray-900 tracking-tight sm:text-5xl">Dayana Ruiz Palacios</h1>
+                            <p class="mt-4 text-xl text-gray-500">Licenciada Graduada en Psicología. </p>
+                            
+                            <hr class="my-8">
+
+                            <h2 class="text-2xl font-bold text-gray-800">Un Espacio de Apoyo y Crecimiento</h2>
+                            <p class="mt-4 text-lg text-gray-600">
+                                Nuestra misión es acompañar a cada estudiante en su desarrollo socioemocional, brindando un espacio seguro y confidencial para fortalecer su autoestima, gestionar sus emociones y potenciar sus habilidades sociales. Trabajamos en equipo con docentes y padres de familia para asegurar el bienestar integral de nuestra comunidad educativa.
+                            </p>
+
+                            <div class="mt-10">
+                                <h3 class="text-xl font-bold text-gray-800">Trayectoria Profesional</h3>
+                                <ul class="mt-4 space-y-3 text-gray-600 list-disc list-inside">
+                                    <li><strong>Formación:</strong> Licenciada en Psicología por la Universidad Católica Santo Toribio de Mogrovejo.</li>
+                                    <li><strong>Especialización:</strong> Licenciada Psicología.</li>
+                                    <li><strong>Experiencia:</strong> Más de 5 años de experiencia trabajando con niños y adolescentes en entornos educativos.</li>
+                                    <li><strong>Enfoque:</strong> Terapia Cognitivo-Conductual y Humanista, enfocada en el desarrollo de la resiliencia y la inteligencia emocional.</li>
+                                </ul>
+                            </div>
+
+                            <div class="mt-10">
+                                 <a href="mailto:email.psicologa@iepamashto.edu.pe" class="inline-block bg-purple-600 hover:bg-purple-700 text-white font-bold py-4 px-8 rounded-lg shadow-lg transition-transform duration-300 transform hover:scale-105">
+                                    <i class="fas fa-envelope mr-3"></i> Agendar una Cita
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+</body>
+</html>

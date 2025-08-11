@@ -1,0 +1,73 @@
+/* Estilo personalizado para la fuente Inter */
+body {
+    font-family: 'Inter', sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* Animación para que los elementos aparezcan al hacer scroll */
+.reveal {
+    position: relative;
+    transform: translateY(100px);
+    opacity: 0;
+    transition: all 1s ease;
+}
+
+.reveal.active {
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+/* --- SOLUCIÓN DEFINITIVA PARA EL CARRUSEL --- */
+
+/* Contenedor principal de cada slide */
+.carousel-item {
+    display: none; /* Oculto por defecto */
+    position: relative; /* Necesario para posicionar elementos hijos de forma absoluta */
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-item.active {
+    display: block; /* Visible cuando tiene la clase 'active' */
+}
+
+/* Capa para la imagen de fondo */
+.carousel-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover; /* Asegura que la imagen cubra todo el espacio sin deformarse */
+    background-position: center center; /* Mantiene la imagen siempre centrada */
+    z-index: 1; /* Detrás de todo */
+}
+
+/* Capa para el texto, posicionada al pie de la foto */
+.carousel-caption {
+    position: absolute;
+    bottom: 0; /* Anclado al borde inferior */
+    left: 0;
+    right: 0;
+    z-index: 2; /* Por encima de la imagen de fondo */
+    padding: 4rem 1rem; /* Relleno para que el texto no se pegue a los bordes (64px abajo, 16px a los lados) */
+    background: linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0)); /* Gradiente para asegurar legibilidad del texto */
+}
+
+/* Imágenes de fondo específicas para cada slide */
+.carousel-bg-1 {
+    background-image: url('imagen/fondo1.jpg');
+}
+
+.carousel-bg-2 {
+    background-image: url('imagen/fondo2.jpg');
+}
+
+.carousel-bg-3 {
+    background-image: url('imagen/fondo3.jpg');
+}
+
+/* Imagen de fondo para el nuevo slide */
+.carousel-bg-4 {
+    background-image: url('imagen/fondo4.jpg'); /* Asegúrate de tener una imagen llamada fondo4.jpg en tu carpeta 'imagen' */
+}

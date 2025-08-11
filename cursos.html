@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cursos y Talleres - Portal Docente I.E. 0271 Pamashto</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome (Iconos) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+    </style>
+</head>
+<body class="bg-gray-100">
+
+    <!-- ========== HEADER (Menú de Navegación) ========== -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <nav class="max-w-[85rem] w-full mx-auto px-4 sm:flex sm:items-center sm:justify-between py-4">
+            <a class="flex-none text-xl font-semibold text-blue-800" href="index.html">
+                <i class="fas fa-school mr-2"></i> I.E. 0271 Pamashto
+            </a>
+            <div class="flex items-center">
+                 <a class="font-medium text-gray-600 hover:text-blue-700" href="docentes.html">
+                    <i class="fas fa-arrow-left mr-2"></i>Volver al Portal Docente
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <!-- Título de la Sección -->
+            <div class="text-center mb-16">
+                <h1 class="text-4xl font-extrabold text-gray-900 tracking-tight sm:text-5xl">Capacitación y Desarrollo Profesional</h1>
+                <p class="mt-4 text-xl text-gray-600">Potencia tus habilidades pedagógicas con nuestras capacitaciones en herramientas de vanguardia.</p>
+            </div>
+
+            <!-- Cuadrícula de Cursos -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+
+                <!-- Tarjeta 1: Curso de Gemini -->
+                <div class="group flex flex-col bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-shadow duration-300 overflow-hidden">
+                    <div class="p-8 bg-gradient-to-br from-blue-500 to-purple-600 text-center">
+                        <i class="fas fa-brain text-5xl text-white opacity-80"></i>
+                        <h2 class="mt-4 text-3xl font-bold text-white">Curso de Gemini</h2>
+                    </div>
+                    <div class="p-8 flex flex-col flex-grow">
+                        <p class="text-gray-600 flex-grow">Aprende a utilizar Gemini como tu asistente pedagógico para planificar clases, crear materiales y fomentar la creatividad en el aula.</p>
+                        <div class="mt-6 text-center">
+                            <a href="#" class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-full transition-transform duration-300 transform group-hover:scale-105">
+                                Iniciar Curso
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tarjeta 2: Curso de ChatGPT -->
+                <div class="group flex flex-col bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-shadow duration-300 overflow-hidden">
+                    <div class="p-8 bg-gradient-to-br from-gray-700 to-gray-900 text-center">
+                        <i class="fas fa-comments text-5xl text-white opacity-80"></i>
+                        <h2 class="mt-4 text-3xl font-bold text-white">Curso de ChatGPT</h2>
+                    </div>
+                    <div class="p-8 flex flex-col flex-grow">
+                        <p class="text-gray-600 flex-grow">Domina el arte de la conversación con IA. Descubre cómo ChatGPT puede ayudarte a generar debates, simulaciones y contenido interactivo.</p>
+                        <div class="mt-6 text-center">
+                            <a href="#" class="inline-block bg-gray-800 hover:bg-gray-900 text-white font-bold py-3 px-8 rounded-full transition-transform duration-300 transform group-hover:scale-105">
+                                Iniciar Curso
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tarjeta 3: Curso de Leonardo AI -->
+                <div class="group flex flex-col bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-shadow duration-300 overflow-hidden">
+                    <div class="p-8 bg-gradient-to-br from-yellow-400 to-orange-500 text-center">
+                        <i class="fas fa-palette text-5xl text-white opacity-80"></i>
+                        <h2 class="mt-4 text-3xl font-bold text-white">Curso de Leonardo AI</h2>
+                    </div>
+                    <div class="p-8 flex flex-col flex-grow">
+                        <p class="text-gray-600 flex-grow">Despierta el artista que llevas dentro. Aprende a crear imágenes impactantes y personalizadas para tus materiales educativos con Leonardo AI.</p>
+                        <div class="mt-6 text-center">
+                            <a href="#" class="inline-block bg-orange-500 hover:bg-orange-600 text-white font-bold py-3 px-8 rounded-full transition-transform duration-300 transform group-hover:scale-105">
+                                Iniciar Curso
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+</body>
+</html>

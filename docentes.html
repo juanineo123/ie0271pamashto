@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal Docente - I.E. 0271 Pamashto</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+    </style>
+</head>
+<body class="bg-gray-100">
+
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <nav class="max-w-[85rem] w-full mx-auto px-4 sm:flex sm:items-center sm:justify-between py-4">
+            <a class="flex-none text-xl font-semibold text-blue-800" href="index.html">
+                <i class="fas fa-school mr-2"></i> I.E. 0271 Pamashto
+            </a>
+            <div class="flex items-center">
+                 <a class="font-medium text-gray-600 hover:text-blue-700" href="index.html">
+                    <i class="fas fa-arrow-left mr-2"></i>Volver a la Página Principal
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h1 class="text-4xl font-extrabold text-gray-900 tracking-tight">Portal Docente</h1>
+                <p class="mt-4 text-lg text-gray-600">Bienvenido al centro de recursos y gestión documental para nuestra plana docente.</p>
+            </div>
+
+            <!-- Cuadrícula de Subsecciones con Enlaces Actualizados -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+                <!-- Tarjeta: DOC. GENERALES -->
+                <a href="doc_generales.html" class="group block bg-white p-8 rounded-xl shadow-md hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
+                    <div class="flex items-center">
+                        <div class="bg-blue-100 text-blue-600 p-4 rounded-full">
+                            <i class="fas fa-file-alt fa-2x"></i>
+                        </div>
+                        <h2 class="text-2xl font-bold text-gray-800 ml-4">Doc. Generales</h2>
+                    </div>
+                    <p class="mt-4 text-gray-600">Acceso a normativas, manuales y otros documentos institucionales de interés general.</p>
+                </a>
+
+                <!-- Tarjeta: PROGRAMACIONES -->
+                <a href="programaciones.html" class="group block bg-white p-8 rounded-xl shadow-md hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
+                    <div class="flex items-center">
+                        <div class="bg-green-100 text-green-600 p-4 rounded-full">
+                            <i class="fas fa-calendar-alt fa-2x"></i>
+                        </div>
+                        <h2 class="text-2xl font-bold text-gray-800 ml-4">Programaciones</h2>
+                    </div>
+                    <p class="mt-4 text-gray-600">Subida de programaciones curriculares anuales para todos los niveles educativos.</p>
+                </a>
+
+                <!-- Tarjeta: UNIDADES -->
+                <a href="unidades.html" class="group block bg-white p-8 rounded-xl shadow-md hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
+                    <div class="flex items-center">
+                        <div class="bg-yellow-100 text-yellow-600 p-4 rounded-full">
+                            <i class="fas fa-book-open fa-2x"></i>
+                        </div>
+                        <h2 class="text-2xl font-bold text-gray-800 ml-4">Unidades</h2>
+                    </div>
+                    <p class="mt-4 text-gray-600">Gestión y subida de las unidades de aprendizaje o proyectos desarrollados.</p>
+                </a>
+
+                <!-- Tarjeta: RECURSOS DOCENTES -->
+                <a href="recursos.html" class="group block bg-white p-8 rounded-xl shadow-md hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
+                    <div class="flex items-center">
+                        <div class="bg-purple-100 text-purple-600 p-4 rounded-full">
+                            <i class="fas fa-cogs fa-2x"></i>
+                        </div>
+                        <h2 class="text-2xl font-bold text-gray-800 ml-4">Recursos Docentes</h2>
+                    </div>
+                    <p class="mt-4 text-gray-600">Accede a nuestra Suite Docente con herramientas inteligentes y generadores automáticos.</p>
+                </a>
+
+                <!-- Tarjeta: CURSOS Y TALLERES -->
+                <a href="cursos.html" class="group block bg-white p-8 rounded-xl shadow-md hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
+                    <div class="flex items-center">
+                        <div class="bg-red-100 text-red-600 p-4 rounded-full">
+                            <i class="fas fa-chalkboard-teacher fa-2x"></i>
+                        </div>
+                        <h2 class="text-2xl font-bold text-gray-800 ml-4">Cursos y Talleres</h2>
+                    </div>
+                    <p class="mt-4 text-gray-600">Registro y materiales de los programas de capacitación y desarrollo profesional.</p>
+                </a>
+
+            </div>
+        </div>
+    </main>
+
+</body>
+</html>
