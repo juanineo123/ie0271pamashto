@@ -25,63 +25,59 @@
 
     <!-- ========== HEADER (MENÚ DE NAVEGACIÓN) ========== -->
     <header
-        class="flex flex-wrap sm:justify-start sm:flex-nowrap z-50 w-full bg-white text-sm py-4 fixed top-0 left-0 right-0 shadow-md">
-        <nav class="max-w-[85rem] w-full mx-auto px-4 sm:flex sm:items-center sm:justify-between" aria-label="Global">
+        class="flex flex-wrap lg:justify-start lg:flex-nowrap z-50 w-full bg-white text-sm py-4 fixed top-0 left-0 right-0 shadow-md">
+        <nav class="max-w-[85rem] w-full mx-auto px-4 lg:flex lg:items-center lg:justify-between" aria-label="Global">
             <div class="flex items-center justify-between">
                 <a class="flex-none text-xl font-semibold text-blue-800" href="#">
                     <i class="fas fa-school mr-2"></i> I.E. 0271 Pamashto
                 </a>
-                <div class="sm:hidden">
+                <div class="lg:hidden">
                     <button type="button" id="navbar-toggle"
                         class="p-2 inline-flex justify-center items-center gap-2 rounded-md border font-medium bg-white text-gray-700 shadow-sm align-middle hover:bg-gray-50 transition-all text-sm">
                         <i class="fas fa-bars"></i>
                     </button>
                 </div>
             </div>
-            <div id="navbar-collapse-basic" class="hidden grow sm:block">
-                <div id="navbar-collapse-basic" class="hidden grow sm:block">
-                    <div class="flex flex-col gap-5 mt-5 sm:flex-row sm:items-center sm:justify-end sm:mt-0 sm:pl-5">
+            <div id="navbar-collapse-basic" class="hidden grow lg:block">
+                <div class="flex flex-col gap-5 mt-5 lg:flex-row lg:items-center lg:justify-end lg:mt-0 lg:pl-5">
 
-                        <a class="font-medium text-gray-600 hover:text-blue-700" href="#inicio">Inicio</a>
+                    <a class="font-medium text-gray-600 hover:text-blue-700" href="#inicio">Inicio</a>
 
-                        <!-- MENÚ DESPLEGABLE DOCENTES -->
-                        <div class="relative">
-                            <button type="button" id="docentes-menu-button"
-                                class="font-medium text-gray-600 hover:text-blue-700 flex items-center">
-                                Docentes
-                                <i class="fas fa-chevron-down ml-1 text-xs"></i>
-                            </button>
-                            <div id="docentes-dropdown"
-                                class="hidden absolute right-0 mt-2 w-56 bg-white rounded-md shadow-lg py-2 z-20">
-                                <a href="docentes.html"
-                                    class="block px-4 py-2 text-sm text-gray-800 font-bold hover:bg-gray-100">Portal
-                                    Principal</a>
-                                <hr class="my-1">
-                                <a href="doc_generales.html"
-                                    class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Doc. Generales</a>
-                                <a href="programaciones.html"
-                                    class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Programaciones</a>
-                                <a href="unidades.html"
-                                    class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Unidades</a>
-                                <a href="recursos.html"
-                                    class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Recursos
-                                    Docentes</a>
-                                <a href="cursos.html"
-                                    class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Cursos y
-                                    Talleres</a>
-                            </div>
+                    <div class="relative">
+                        <button type="button" id="docentes-menu-button"
+                            class="font-medium text-gray-600 hover:text-blue-700 flex items-center w-full text-left">
+                            Docentes
+                            <i class="fas fa-chevron-down ml-1 text-xs"></i>
+                        </button>
+                        <div id="docentes-dropdown"
+                            class="hidden absolute right-0 mt-2 w-56 bg-white rounded-md shadow-lg py-2 z-20">
+                            <a href="docentes.html"
+                                class="block px-4 py-2 text-sm text-gray-800 font-bold hover:bg-gray-100">Portal
+                                Principal</a>
+                            <hr class="my-1">
+                            <a href="doc_generales.html"
+                                class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Doc. Generales</a>
+                            <a href="programaciones.html"
+                                class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Programaciones</a>
+                            <a href="unidades.html"
+                                class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Unidades</a>
+                            <a href="recursos.html"
+                                class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Recursos
+                                Docentes</a>
+                            <a href="cursos.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Cursos
+                                y
+                                Talleres</a>
                         </div>
-
-                        <a class="font-medium text-gray-600 hover:text-blue-700" href="#autoridades">Autoridades</a>
-                        <a class="font-medium text-gray-600 hover:text-blue-700" href="#niveles">Niveles</a>
-                        <a class="font-medium text-gray-600 hover:text-blue-700" href="#propuesta">Propuesta</a>
-                        <a class="font-medium text-gray-600 hover:text-blue-700" href="#noticias">Noticias</a>
-                        <a class="font-medium text-gray-600 hover:text-blue-700" href="psicologia.html">Psicología</a>
-                        <a class="font-medium text-gray-600 hover:text-blue-700" href="#contacto">Contacto</a>
-
                     </div>
-                </div>
 
+                    <a class="font-medium text-gray-600 hover:text-blue-700" href="#autoridades">Autoridades</a>
+                    <a class="font-medium text-gray-600 hover:text-blue-700" href="#niveles">Niveles</a>
+                    <a class="font-medium text-gray-600 hover:text-blue-700" href="#propuesta">Propuesta</a>
+                    <a class="font-medium text-gray-600 hover:text-blue-700" href="#noticias">Noticias</a>
+                    <a class="font-medium text-gray-600 hover:text-blue-700" href="psicologia.html">Psicología</a>
+                    <a class="font-medium text-gray-600 hover:text-blue-700" href="#contacto">Contacto</a>
+
+                </div>
             </div>
         </nav>
     </header>
