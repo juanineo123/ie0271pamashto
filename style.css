@@ -1,3 +1,13 @@
+/* ---- REFUERZO PARA SAFARI EN IOS/IPADOS ---- */
+html {
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+}
+
+body {
+    min-width: 320px;
+}
+
 /* Estilo personalizado para la fuente Inter */
 body {
     font-family: 'Inter', sans-serif;
